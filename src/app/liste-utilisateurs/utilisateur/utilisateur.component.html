@@ -1,0 +1,26 @@
+<ul *ngIf="user" style="list-style: none;">
+  <li>
+    <span style="color:blue;font-size:20px;">Username</span>
+    <span style="margin-left:100px">{{user.count}}</span>
+  </li>
+  <li>
+    <span>ID : </span>
+    <span>{{user.id}}</span>
+  </li>
+  <li>
+    <span>NAME : </span>
+    <span>{{user.name}}</span>
+  </li>
+  <li>
+    <span>CITY : </span>
+    <span>{{user.address.city}}</span>
+  </li>
+  <li>
+    <span>COMPANY : </span>
+    <span>{{user.company.name}}</span>
+  </li>
+  <li>
+    <span>PHONE : </span>
+    <span>{{user.phone}}</span>
+  </li>
+  </ul>

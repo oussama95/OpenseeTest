@@ -1,0 +1,7 @@
+
+<h2>Users</h2>
+<mat-grid-list cols="5" rowHeight="2:1">
+  <mat-grid-tile [style.background]="'MistyRose'" *ngFor="let user of users ">
+      <app-utilisateur  [user]="user" style="display: contents"></app-utilisateur>
+  </mat-grid-tile>
+</mat-grid-list>
